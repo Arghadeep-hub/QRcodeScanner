@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/codeScanner/static/css/main.aae9d719.chunk.css",
+    "main.js": "/codeScanner/static/js/main.151da83d.chunk.js",
+    "main.js.map": "/codeScanner/static/js/main.151da83d.chunk.js.map",
+    "runtime-main.js": "/codeScanner/static/js/runtime-main.1fe069d1.js",
+    "runtime-main.js.map": "/codeScanner/static/js/runtime-main.1fe069d1.js.map",
+    "static/js/2.2ff29cef.chunk.js": "/codeScanner/static/js/2.2ff29cef.chunk.js",
+    "static/js/2.2ff29cef.chunk.js.map": "/codeScanner/static/js/2.2ff29cef.chunk.js.map",
+    "index.html": "/codeScanner/index.html",
+    "static/css/main.aae9d719.chunk.css.map": "/codeScanner/static/css/main.aae9d719.chunk.css.map",
+    "static/js/2.2ff29cef.chunk.js.LICENSE.txt": "/codeScanner/static/js/2.2ff29cef.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/codeScanner/static/media/about-bg.38fdb5e5.png",
+    "static/media/about-img.d8dcd603.png": "/codeScanner/static/media/about-img.d8dcd603.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fe069d1.js",
+    "static/js/2.2ff29cef.chunk.js",
+    "static/css/main.aae9d719.chunk.css",
+    "static/js/main.151da83d.chunk.js"
+  ]
+}
