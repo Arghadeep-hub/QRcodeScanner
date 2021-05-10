@@ -65,6 +65,7 @@ html{
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
+    overflow: hidden;
 }
 
 .about .column{
@@ -108,7 +109,46 @@ html{
 .about .column .content .buttons a:last-child{
     margin-left: 2rem;
 }
-
+.static-sanner{
+    display: flex;
+    justify-content: center;
+}
+.static-sanner .inner{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 70vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.static-sanner .inner h2{
+    height: 80%;
+    width: 80%;
+    border: 5px solid var(--pink);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-family: cursive;
+    font-size: xx-large;
+}
+.bar{
+    border: 2px solid #03d9ff;
+    border-radius: 100%;
+    z-index: 1;
+    width: 32%;
+    position: absolute;
+    animation: float1 1.5s linear infinite;
+}
+@keyframes float1 {
+    0%, 100%{
+        transform: translateY(-12rem);
+    }
+    50%{
+        transform: translateY(12rem);
+    }
+}
 
 /* media queries  */
 
@@ -117,6 +157,7 @@ html{
     html{
         font-size: 55%;
     }
+
 
 }
 
@@ -148,5 +189,11 @@ html{
 
     .about .column .content .buttons a:last-child{
         margin: 1rem 0;
+    }
+    .static-sanner .inner{
+        height: 40vh;
+    }
+    .bar{
+        width: 65%;
     }
 }
